@@ -1,0 +1,56 @@
+.ptf-is--home-default .ptf-navbar,
+.ptf-is--home-default .ptf-navbar.ptf-navbar--solid {
+  background-color: #000;
+}
+.ptf-is--home-default .ptf-navbar,
+.ptf-is--home-default .ptf-navbar.ptf-navbar--solid {
+  color: white;
+}
+.menu-item-has-children:hover {
+  color: #fa4529;
+}
+.menu-item-has-children:hover {
+  color: #fa4529;
+}
+@media (min-width: 1200px) {
+  /* .col-xl-4 {
+    width: 50%;
+  } */
+}
+.ptf-footer--style-1 .ptf-footer__top .ptf-widget + .ptf-widget {
+  margin-top: 1.375rem;
+}
+.contentServiceMain span {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+}
+dl dt {
+  color: white;
+  background-color: black;
+}
+.ptf-widget-faq .ptf-accordion dt {
+  padding-left: 1.125rem;
+}
+.ptf-widget-faq .ptf-accordion dt::after {
+  right: 5px;
+}
+dl dd {
+  background-color: black;
+  color: white;
+  padding: 1.125rem;
+  margin: 0;
+}
+.ptf-nav--default .sf-menu > li > a {
+  color: white;
+}
+.ptf-navbar,
+.ptf-navbar.ptf-navbar--solid {
+  background-color: black;
+  color: white;
+}
+@media (max-width: 768px) {
+  .faqRows .col-6 {
+    width: 100%;
+  }
+}
