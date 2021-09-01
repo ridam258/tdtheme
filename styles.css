@@ -62,6 +62,9 @@ dl dd {
   top: 3vw;
   left: 10px;
 }
+.serviceDetailHead p {
+  color: black;
+}
 @media (max-width: 768px) {
   .serviceDetailHead h1 {
     font-size: xx-large;
