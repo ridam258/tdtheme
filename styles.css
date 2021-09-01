@@ -12,11 +12,7 @@
 .menu-item-has-children:hover {
   color: #fa4529;
 }
-@media (min-width: 1200px) {
-  /* .col-xl-4 {
-    width: 50%;
-  } */
-}
+
 .ptf-footer--style-1 .ptf-footer__top .ptf-widget + .ptf-widget {
   margin-top: 1.375rem;
 }
@@ -52,5 +48,25 @@ dl dd {
 @media (max-width: 768px) {
   .faqRows .col-6 {
     width: 100%;
+  }
+  .ptf-spacer {
+    height: var(--ptf-lg, var(--ptf-xl, var(--ptf-xxl)));
+  }
+}
+.serviceDetailImage {
+  position: relative;
+}
+.serviceDetailHead {
+  position: absolute;
+  z-index: 5;
+  top: 3vw;
+  left: 10px;
+}
+@media (max-width: 768px) {
+  .serviceDetailHead h1 {
+    font-size: xx-large;
+  }
+  .serviceDetailHead p {
+    font-size: small;
   }
 }
