@@ -78,7 +78,7 @@ dl dd {
   /* background-color: #fff; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   right: 0px;
-  z-index: 100;
+  z-index: 60;
   max-height: 80vh;
   overflow-y: auto;
 }

@@ -7794,13 +7794,13 @@ p.form-submit {
 }
 .ptf-testimonial__content {
   font-family: var(--ptf-secondary-font);
-  font-size: 3rem;
+  font-size: 1.5rem;
   line-height: 1.375;
   color: var(--ptf-content-color);
 }
 @media only screen and (max-width: 991px) {
   .ptf-testimonial__content {
-    font-size: 2.25rem;
+    font-size: 1.25rem;
   }
 }
 .ptf-testimonial__content a {
