@@ -55,6 +55,10 @@ dl dd {
 }
 .serviceDetailImage {
   position: relative;
+  background-image: url(./assetsTd/eventsBg.jpeg);
+  background-size: cover;
+  height: 82vh;
+  width: 100vw;
 }
 .serviceDetailHead {
   position: absolute;
@@ -71,7 +75,7 @@ dl dd {
 .serviceList {
   position: fixed;
   bottom: 0px;
-  background-color: #fff;
+  /* background-color: #fff; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   right: 0px;
   z-index: 100;
