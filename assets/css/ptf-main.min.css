@@ -1572,8 +1572,8 @@ p.form-submit {
   position: relative;
 }
 .ptf-footer--style-1 {
-  background-color: var(--ptf-color-9);
-  background-image: url(../img/root/footer-bubble.png);
+  background-color: var(--ptf-accent-1);
+  /* background-image: url(../img/root/footer-bubble.png); */
   background-repeat: no-repeat;
   background-position: calc(50% - 190px) 100%;
   background-size: 565px 340px;
@@ -1581,6 +1581,9 @@ p.form-submit {
 .ptf-footer--style-1 .ptf-footer__top {
   padding-top: 9.375rem;
   padding-bottom: 2.5rem;
+}
+.ptf-footer__top {
+  background-color: #fa4529;
 }
 @media only screen and (max-width: 767px) {
   .ptf-footer--style-1 .ptf-footer__top {
@@ -1630,6 +1633,7 @@ p.form-submit {
   padding-top: 4.0625rem;
   padding-bottom: 2.8125rem;
   border-top: 2px solid var(--ptf-color-black);
+  background-color: #fff;
 }
 @media only screen and (max-width: 767px) {
   .ptf-footer--style-1 .ptf-footer__bottom {
