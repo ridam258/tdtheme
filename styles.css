@@ -105,6 +105,9 @@ dl dd {
   width: 175px;
   margin-bottom: 15px;
 }
+.ptf-form-group label:hover {
+  color: #fa4529;
+}
 @media (max-width: 768px) {
   .team h1 {
     font-size: 5vw;
